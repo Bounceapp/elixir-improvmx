@@ -9,7 +9,7 @@ This package can be installed by adding `improvmx` to your list of dependencies 
 ```elixir
 def deps do
   [
-    {:improvmx, "~> 0.1.0"}
+    {:improvmx, "~> 0.1.1"}
   ]
 end
 ```

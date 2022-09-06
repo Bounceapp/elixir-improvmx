@@ -13,7 +13,7 @@ defmodule ImprovMX.Http do
         body
 
       {:error, error} ->
-        raise "ImprovMX.HttpClient error: #{error}"
+        {:error, error}
     end
   end
 
@@ -27,7 +27,7 @@ defmodule ImprovMX.Http do
         body
 
       {:error, error} ->
-        raise "ImprovMX.HttpClient error: #{error}"
+        {:error, error}
     end
   end
 
@@ -44,7 +44,7 @@ defmodule ImprovMX.Http do
         body
 
       {:error, error} ->
-        raise "ImprovMX.HttpClient error: #{error}"
+        {:error, error}
     end
   end
 
@@ -61,7 +61,7 @@ defmodule ImprovMX.Http do
         body
 
       {:error, error} ->
-        raise "ImprovMX.HttpClient error: #{error}"
+        {:error, error}
     end
   end
 
