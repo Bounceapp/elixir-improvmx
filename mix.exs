@@ -32,8 +32,8 @@ defmodule ImprovMX.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 1.8"},
-      {:poison, "~> 4.0"},
+      {:httpoison, "~> 1.8 or ~> 2.0"},
+      {:poison, "~> 4.0 or ~> 5.0 or ~> 6.0"},
       {:ex_doc, "~> 0.27", only: :dev, runtime: false}
     ]
   end
